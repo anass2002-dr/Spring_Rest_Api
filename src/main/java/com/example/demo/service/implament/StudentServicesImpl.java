@@ -34,8 +34,8 @@ public class StudentServicesImpl implements StudentService {
     }
 
     @Override
-    public void DeleteStudent(student student) {
-        strep.delete(student);
+    public void DeleteStudent(Integer id) {
+        strep.deleteById(id);
     }
 
     @Override
